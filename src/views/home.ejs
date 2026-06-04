@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        <%= title %>
+    </title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <%- include('partials/nav') %>
+
+        <section class="hero">
+
+            <div class="overlay"></div>
+
+            <div class="hero-content">
+                <h1>Fundación Solidaria</h1>
+                <h2>"UNA NUEVA HISTORIA"</h2>
+
+                <p>
+                    Transformando vidas mediante la solidaridad,
+                    la educación y el compromiso social.
+                </p>
+
+                <a href="/nosotros" class="btn">
+                    Conoce Más
+                </a>
+            </div>
+
+        </section>
+
+        <%- include('partials/footer') %>
+
+            <script src="/js/app.js"></script>
+
+</body>
+
+</html>
