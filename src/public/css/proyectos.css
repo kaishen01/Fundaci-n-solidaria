@@ -1,0 +1,80 @@
+/* =========================
+   PAGINAS DE PROYECTOS
+========================= */
+
+.project-detail {
+    padding: 100px 20px;
+    background: #f8f9fa;
+}
+
+.project-detail .container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 50px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* TITULO */
+.project-detail h1 {
+    font-size: 2.8rem;
+    color: #0D6EFD;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* TEXTO */
+.project-detail p {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* DECORACIÓN SUPERIOR (LINEA AZUL) */
+.project-detail .container::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    background: #0D6EFD;
+    margin: 0 auto 25px;
+    border-radius: 10px;
+}
+
+/* =========================
+   EFECTO HOVER SUAVE
+========================= */
+
+.project-detail .container {
+    transition: 0.3s ease;
+}
+
+.project-detail .container:hover {
+    transform: translateY(-5px);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .project-detail {
+        padding: 60px 15px;
+    }
+
+    .project-detail .container {
+        padding: 30px 20px;
+    }
+
+    .project-detail h1 {
+        font-size: 2rem;
+    }
+
+    .project-detail p {
+        font-size: 1rem;
+    }
+}
