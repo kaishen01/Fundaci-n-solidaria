@@ -1,0 +1,26 @@
+.simple-page {
+    padding: 100px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.simple-page .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.simple-page h1 {
+    color: #0D6EFD;
+    margin-bottom: 20px;
+}
+
+.simple-page p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}

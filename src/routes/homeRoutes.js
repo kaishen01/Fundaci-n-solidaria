@@ -13,6 +13,10 @@ router.get('/proyectos/vejez', homeController.vejez);
 router.get('/proyectos/hogar', homeController.hogar);
 router.get('/proyectos/restauracion', homeController.restauracion);
 
+router.get('/noticias', homeController.noticias);
+
+router.get('/contacto', homeController.contacto);
+
 
 
 

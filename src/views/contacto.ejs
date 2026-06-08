@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <%- include('partials/nav') %>
+
+        <section class="contact-page">
+
+            <div class="container">
+
+                <h1>📩 Contacto</h1>
+
+                <p>
+                    Si deseas colaborar, apoyar o comunicarte con la Fundación,
+                    puedes escribirnos o visitarnos.
+                </p>
+
+                <div class="contact-box">
+
+                    <div class="contact-item">
+                        <h3>📍 Dirección</h3>
+                        <p>Santa Cruz, Bolivia</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h3>📞 Teléfono</h3>
+                        <p>+591 70000000</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h3>✉️ Correo</h3>
+                        <p>contacto@fundacion.org</p>
+                    </div>
+
+                </div>
+
+                <div class="map-container">
+
+                    <h2>📍 Ubicación</h2>
+
+                    <iframe src="https://www.google.com/maps?q=-21.999250,-63.668056&z=17&output=embed">
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <%- include('partials/footer') %>
+
+</body>
+
+</html>
