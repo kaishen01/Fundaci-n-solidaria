@@ -123,9 +123,27 @@ body {
 }
 
 
-/* SECCION VALORES */
+/* SECCION VALORES 
+
 .values {
     padding: 80px 20px;
+    background: #0056b3;
+}*/
+
+.values {
+    padding: 80px 20px;
+    background: linear-gradient(
+        135deg,
+        #0155ae,
+        #1b82e3
+    );
+}
+
+.values h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
 }
 
 .cards {
@@ -136,17 +154,50 @@ body {
 }
 
 .card {
-    width: 300px;
+    width: 320px;
     background: white;
-    padding: 30px;
+    padding: 35px 25px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
     text-align: center;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .card:hover {
     transform: translateY(-8px);
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+.card h1 {
+    color: #0056b3;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.7;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
 }
 
 
