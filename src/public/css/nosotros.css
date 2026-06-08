@@ -1,0 +1,70 @@
+.about-page {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(
+        135deg,
+        #e6f1fd,
+        #d2d3d4
+    );
+    color: rgb(0, 0, 0);
+}
+
+.about-page h1 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.intro {
+    max-width: 850px;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 1.9;
+}
+
+.mission,
+.commitment {
+    padding: 80px 20px;
+    background: #f8f9fa;
+}
+
+.vision {
+    padding: 80px 20px;
+    background: white;
+}
+
+.mission h2,
+.vision h2,
+.commitment h2 {
+    text-align: center;
+    color: #0056b3;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+
+.mission p,
+.vision p,
+.commitment p {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.9;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .about-page h1 {
+        font-size: 2.2rem;
+    }
+
+    .intro,
+    .mission p,
+    .vision p,
+    .commitment p {
+        font-size: 1rem;
+    }
+
+}

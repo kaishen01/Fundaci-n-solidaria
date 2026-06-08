@@ -3,3 +3,9 @@ exports.index = (req, res) => {
         title: 'Fundación Solidaria UNA NUEVA HISTORIA'
     });
 };
+
+exports.nosotros = (req, res) => {
+    res.render('nosotros', {
+        title: 'Nosotros - Fundación Solidaria'
+    });
+};
